@@ -1,0 +1,399 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #3E3E3E;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #EDEDED;
+}
+
+#page-inner {
+    width: 100%;
+    background-color: transparent;
+}
+
+.header .container-fluid {
+    padding: 0;
+}
+
+.check {
+    text-align: justify;
+}
+
+.heading1 {
+    color: rgb(231, 65, 65);
+}
+
+.heading2 {
+    color: rgb(209, 41, 41);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+h2 {
+    color: #000;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.navbar-side {
+    z-index: 0;
+}
+
+.panel {
+    border-radius: 0px;
+}
+
+.navbar-side .nav>li>a>i {
+    color: #8C8C8C;
+    padding: 8px;
+    width: 30px;
+    text-align: center;
+}
+
+.top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-side {
+    z-index: 1;
+    position: fixed;
+    width: 260px;
+    top: 80px;
+}
+
+#page-wrapper {
+    position: relative;
+    top: 55px;
+    box-shadow: 0 0 10px #757575;
+    -moz-box-shadow: 0 0 10px #757575;
+    -webkit-box-shadow: 0 0 10px #757575;
+}
+
+.top-navbar .nav>li>a:hover,
+.top-navbar .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #4D4D4D;
+    color: #fff;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: #656565;
+    border-color: #F36A5A;
+    color: #fff !important;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.dropdown-menu>li>a i {
+    color: #1F1F1F;
+}
+
+
+/*----------------------------------------------
+   DASHBOARD STYLES    
+------------------------------------------------*/
+
+.page-header {
+    margin: 0;
+    border-bottom: 1px solid transparent;
+    text-align: left;
+    background-color: rgb(237, 237, 237);
+    padding: 32px 22px 32px 0;
+    color: #323232;
+}
+
+.header {
+    margin: 0 30px;
+}
+
+i.fa.fa-bars {
+    font-size: 20px;
+    margin: 12px 0 0;
+}
+
+i.fa.fa-bars:hover {
+    color: #F36A5A;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/*----------------------------------------------
+    MENU STYLES    
+------------------------------------------------*/
+
+.top-navbar {
+    margin: 0px;
+}
+
+.top-navbar .navbar-brand {
+    color: #fff;
+    width: 260px;
+    text-align: left;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    line-height: 30px;
+}
+
+.navbar-brand b {
+    color: #4BD28C;
+}
+
+.top-navbar .nav>li {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-navbar .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 20px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.top-navbar .nav>li>a:hover,
+.top-navbar .nav>li>a:focus {
+    text-decoration: none;
+    color: #319DB5 !important;
+    background: transparent;
+}
+
+.top-navbar .dropdown-menu {
+    min-width: 230px;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+}
+
+.active-menu,
+.active-menu i {
+    background-color: #EDEDED !important;
+    color: #F36A5A !important;
+}
+
+.active-menu i {
+    color: #F36A5A !important;
+}
+
+.arrow {
+    float: right;
+    margin-top: 8px;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+
+.sidebar-collapse,
+.sidebar-collapse .nav {
+    background: none;
+}
+
+.sidebar-collapse .nav {
+    padding: 0;
+}
+
+.sidebar-collapse .nav>li>a {
+    color: #B8B8B8;
+    background: transparent;
+    text-shadow: none;
+    font-size: 14px;
+}
+
+.sidebar-collapse>.nav>li>a {
+    padding: 12px 10px;
+}
+
+.sidebar-collapse>.nav>li {
+    border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+ul.nav.nav-second-level.collapse.in {
+    background: #131212;
+}
+
+.sidebar-collapse .nav>li>a:hover,
+.sidebar-collapse .nav>li>a:focus {
+    outline: 0;
+    background: #575757;
+    color: #F36A5A;
+}
+
+.navbar-side {
+    border: none;
+    background: #3E3E3E;
+}
+
+.top-navbar {
+    background: #FFFFFF;
+    border-bottom: none;
+}
+
+.top-navbar .nav>li>a>i {
+    margin-right: 2px;
+}
+
+.dropdown-user li {
+    margin: 8px 0;
+}
+
+.navbar-default {
+    border: 0px solid black;
+}
+
+.navbar-header {
+    background: transparent;
+    height: 75px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.nav>li>a>i {
+    margin-right: 10px;
+    color: rgb(243, 106, 90);
+}
+
+.dropdown-menu>li>a>strong {
+    color: #0866C6;
+    padding: 5px 0;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#sideNav {
+    float: left;
+    left: 0;
+    z-index: 3;
+    color: #868686;
+    cursor: pointer;
+    border-radius: 0;
+    width: 14px;
+    font-size: 48px;
+    line-height: 0;
+    margin: 7px 0 0 20px;
+}
+
+
+/*----------------------------------------------
+    UI ELEMENTS STYLES     
+------------------------------------------------*/
+
+
+/*----------------------------------------------
+    MEDIA QUERIES     
+------------------------------------------------*/
+
+@media(min-width:768px) {
+    #page-wrapper {
+        margin: 0 0 0 260px;
+        padding: 0;
+        min-height: 1200px;
+    }
+    .navbar-side {
+        width: 260px;
+        z-index: 1;
+    }
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+@media(max-width:768px) {
+    #sideNav {
+        display: none;
+    }
+    #page-wrapper {
+        position: relative;
+        top: 93px;
+    }
+}
+
+@media(max-width:480px) {
+    #page-wrapper {
+        position: relative;
+        top: 93px;
+    }
+    .page-header small {
+        display: block;
+        padding-top: 14px;
+        font-size: 19px;
+    }
+    #sideNav {
+        display: none;
+    }
+}
